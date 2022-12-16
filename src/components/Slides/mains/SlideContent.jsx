@@ -1,3 +1,4 @@
+// libs
 import React from 'react';
 
 const SlideContent = ({slides,currentPage}) => {

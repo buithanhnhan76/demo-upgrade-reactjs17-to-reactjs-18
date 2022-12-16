@@ -1,12 +1,8 @@
-import Slides from './components/slides';
-import './App.css';
+// child
+import SlideBoard from "views/SlideBoard";
+// styles
+import "./App.css";
 
-
-// app.js call sliders component
-function App() {
-  return (
-      <Slides />
-  );
-}
+const App = () => <SlideBoard />;
 
 export default App;
